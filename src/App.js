@@ -10,7 +10,7 @@ function App() {
 
 	// verify if array or image
 	function verify(image) {
-		if (image.isArray) {
+		if (image instanceof Array) {
 			return image.join('');
 		}
 		else {
