@@ -4,7 +4,7 @@ import asset from './asset.json'
 // CIP25 Metadata Standard
 // https://cips.cardano.org/cips/cip25/
 // Shows array as a viable option for image src
-// So this means we should have an array check in place and not assume image?
+// So this means we should have an array check in place and not assume image url or ipfs cid?
 
 function App() {
 
